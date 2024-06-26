@@ -1,0 +1,65 @@
+.ab-rtl .pl-md-5 {
+    padding-left: unset !important;
+    padding-right: 5em !important;
+
+
+}
+
+#ab-main{
+    text-align: right !important;
+    padding-right: 90px;
+}
+
+.figure-project__content.text-left {
+    padding-right: 20px;
+  }
+
+body.hm-rtl{
+    text-align: right;
+}
+body.fr-rtl{
+    text-align: right;
+}
+.hm-rtl #section-content-p {
+    text-align: left unset!important;
+    text-align: right !important;
+}
+.hm-rtl .services-hm{
+    text-align: left unset!important;
+    text-align: right !important;
+}
+.mr-auto {
+    margin-right: unset !important;
+    .mr-auto {
+        margin-left: auto !important;
+    }
+}
+ #about-1section{
+    
+    text-align: right !important;
+}
+.figure-service__header{
+    text-align: right !important;
+}
+.menu-overlay {
+    text-align: right;
+}
+body.sr-rtl{
+    text-align: right;
+}
+.sr-rtl .justify-content-between{
+    padding-right: 40px;
+}
+.header__overlay-menu-back{
+padding-top: 131px !important;
+}
+.co-rtl .header {
+    padding-top: unset !important;
+    padding-top: 40px !important;
+
+}
+
+
+.in-rtl .header__burger{
+    margin-bottom: 30px;
+}

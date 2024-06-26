@@ -1,0 +1,1174 @@
+923
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dfff<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>On The Way Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="description" content="On The Way Store"/>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cinzel:400,700%7CRaleway:500,500i,600,700%7CMaterial+Icons&amp;display=swap"/>
+    <!-- Template Vendor's Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/vendor.css"/>
+    <!-- Template Main Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <!-- Favicons & App Icons -->
+    
+   
+    <link rel="icon" type="image/x-icon" href="img/general/favicon.ico"/>
+  </head>
+  <body dir="rtl">
+    <div data-barba="wrapper">
+      <!-- PAGE PRELOADER -->
+      <div class="preloader text-center bg-dark-2" id="js-preloader" data-arts-theme-text="light">
+        <div class="preloader__content">
+          <!-- header -->
+          <div class="preloader__header mt-auto">
+            <div class="preloader__heading h2">متجر في الطريق</div>
+            <div class="preloader__subline small-caps mt-1">
+              الثورة في تجارة التجزئة         
+               </div>
+          </div>
+          <!-- - header -->
+          <!-- counter -->
+          <div class="preloader__counter h5"><span class="preloader__counter-number preloader__counter-current">0</span><span class="preloader__counter-divider">&nbsp;&nbsp;/&nbsp;&nbsp;</span><span class="preloader__counter-number preloader__counter-total">100</span></div>
+          <!-- - counter -->
+          <!-- circle holder -->
+          <div class="preloader__circle"></div>
+          <!-- - circle holder -->
+        </div>
+      </div>
+      <!-- - PAGE PRELOADER -->
+      <!-- Loading Spinner -->
+      <svg class="spinner d-lg-none" id="js-spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+        <circle class="spinner__path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+      </svg>
+      <!-- - Loading Spinner -->
+      <!-- Transition Curtain-->
+      <!-- TRANSITION CURTAINS -->
+      <!-- page curtain AJAX transition -->
+      <div class="curtain transition-curtain" id="js-page-transition-curtain">
+        <div class="curtain__wrapper-svg">
+          <svg class="curtain-svg" viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Default Rectangle -->
+            <path class="curtain-svg__normal" d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z"></path>
+            <!-- - Default Rectangle -->
+            <!-- Curve Top -->
+            <path class="curtain-svg__curve curtain-svg__curve_top-desktop" d="M0,300 C305.333333,100 625.333333,0 960,0 C1294.66667,0 1614.66667,100 1920,300 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,300 Z"></path>
+            <path class="curtain-svg__curve curtain-svg__curve_top-mobile" d="M0,150 C305.333333,50 625.333333,0 960,0 C1294.66667,0 1614.66667,50 1920,150 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,150 Z"></path>
+            <!-- - Curve Top -->
+            <!-- Curve Bottom -->
+            <path class="curtain-svg__curve curtain-svg__curve_bottom-desktop" d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,980 1294.66667,930 960,930 C625.333333,930 305.333333,980 0,1080 L0,0 Z"></path>
+            <path class="curtain-svg__curve curtain-svg__curve_bottom-mobile" d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1030 1294.66667,1005 960,1005 C625.333333,1005 305.333333,1030 0,1080 L0,0 Z"></path>
+            <!-- - Curve Bottom -->
+          </svg>
+        </div>
+      </div>
+      <!-- - page curtain AJAX transition -->
+      <!-- header curtain show/hide -->
+      <div class="header-curtain curtain" id="js-header-curtain">
+        <div class="curtain__wrapper-svg">
+          <svg class="curtain-svg" viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Default Rectangle -->
+            <path class="curtain-svg__normal" d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z"></path>
+            <!-- - Default Rectangle -->
+            <!-- Curve Top -->
+            <path class="curtain-svg__curve curtain-svg__curve_top-desktop" d="M0,300 C305.333333,100 625.333333,0 960,0 C1294.66667,0 1614.66667,100 1920,300 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,300 Z"></path>
+            <path class="curtain-svg__curve curtain-svg__curve_top-mobile" d="M0,150 C305.333333,50 625.333333,0 960,0 C1294.66667,0 1614.66667,50 1920,150 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,150 Z"></path>
+            <!-- - Curve Top -->
+            <!-- Curve Bottom -->
+            <path class="curtain-svg__curve curtain-svg__curve_bottom-desktop" d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,980 1294.66667,930 960,930 C625.333333,930 305.333333,980 0,1080 L0,0 Z"></path>
+            <path class="curtain-svg__curve curtain-svg__curve_bottom-mobile" d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1030 1294.66667,1005 960,1005 C625.333333,1005 305.333333,1030 0,1080 L0,0 Z"></path>
+            <!-- - Curve Bottom -->
+          </svg>
+        </div>
+      </div>
+      <!-- - header curtain show/hide -->
+      <!-- header curtain AJAX transition -->
+      <div class="header-curtain header-curtain_transition curtain" id="js-header-curtain-transition">
+        <div class="curtain__wrapper-svg">
+          <svg class="curtain-svg" viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Default Rectangle -->
+            <path class="curtain-svg__normal" d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z"></path>
+            <!-- - Default Rectangle -->
+            <!-- Curve Top -->
+            <path class="curtain-svg__curve curtain-svg__curve_top-desktop" d="M0,300 C305.333333,100 625.333333,0 960,0 C1294.66667,0 1614.66667,100 1920,300 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,300 Z"></path>
+            <path class="curtain-svg__curve curtain-svg__curve_top-mobile" d="M0,150 C305.333333,50 625.333333,0 960,0 C1294.66667,0 1614.66667,50 1920,150 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,150 Z"></path>
+            <!-- - Curve Top -->
+            <!-- Curve Bottom -->
+            <path class="curtain-svg__curve curtain-svg__curve_bottom-desktop" d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,980 1294.66667,930 960,930 C625.333333,930 305.333333,980 0,1080 L0,0 Z"></path>
+            <path class="curtain-svg__curve curtain-svg__curve_bottom-mobile" d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1030 1294.66667,1005 960,1005 C625.333333,1005 305.333333,1030 0,1080 L0,0 Z"></path>
+            <!-- - Curve Bottom -->
+          </svg>
+        </div>
+      </div>
+      <!-- - header curtain AJAX transition -->
+      <!-- - TRANSITION CURTAINS -->
+      <!-- Cursor Follower-->
+      <div class="cursor" id="js-cursor">
+        <div class="cursor__wrapper">
+          <!-- circles -->
+          <div class="cursor__follower">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <circle id="inner" cx="25" cy="25" r="24" style="opacity: 0.6;"></circle>
+              <circle id="outer" cx="25" cy="25" r="24" style="stroke-dashoffset: 252.327; stroke-dasharray: 0px, 999999px;"></circle>
+            </svg>
+          </div>
+          <!-- - circles -->
+          <!-- arrows -->
+          <div class="cursor__arrows">
+            <div class="cursor__arrow cursor__arrow_up material-icons">keyboard_arrow_up</div>
+            <div class="cursor__arrow cursor__arrow_down material-icons">keyboard_arrow_down</div>
+            <div class="cursor__arrow cursor__arrow_left material-icons">keyboard_arrow_left</div>
+            <div class="cursor__arrow cursor__arrow_right material-icons">keyboard_arrow_right</div>
+          </div>
+          <!-- - arrows -->
+          <!-- label holder -->
+          <div class="cursor__label"></div>
+          <!-- - label holder -->
+          <!-- icon holder -->
+          <div class="cursor__icon material-icons"></div>
+          <!-- - icon holder -->
+        </div>
+      </div>
+      <!-- - Cursor Follower-->
+      <!-- PAGE HEADER -->
+      <header
+      class="header header_menu-right header_fixed container-fluid js-header-sticky"
+      id="page-header"
+      data-arts-theme-text="light"
+      data-arts-header-sticky-theme="bg-dark-2"
+      data-arts-header-logo="secondary"
+      data-arts-header-sticky-logo="secondary"
+      data-arts-header-overlay-theme="dark"
+      data-arts-header-overlay-background="#000"
+    >
+      <!-- top bar -->
+      <div class="header__container header__controls">
+        <div class="row justify-content-between align-items-center">
+          <!-- logo -->
+          <div class="col-auto header__col header__col-left">
+            <a class="logo" href="index - ar.html">
+              <div class="logo__wrapper-img d-flex">
+                <img
+                  src="img/general/On-The-Way-Logo.png"
+                  alt="On The Way Stor"
+                  height="20"
+                />
+                <img
+                  src="img/general/Vision-2030.png"
+                  alt="Vision-2030"
+                  height="20"
+                  class="pl-3"
+                  style="width: 150px; height: 50px"
+                /></div
+            ></a>
+          </div>
+          <!-- - logo -->
+          <!-- burger icon -->
+          <div class="col-auto header__col">
+            <div
+              class="header__burger"
+              id="js-burger"
+              data-arts-cursor="data-arts-cursor"
+              data-arts-cursor-scale="1.7"
+              data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+              data-arts-cursor-hide-native="true"
+            >
+              <div class="header__burger-line"></div>
+              <div class="header__burger-line"></div>
+              <div class="header__burger-line"></div>
+            </div>
+          </div>
+          <!-- - burger icon -->
+          <!-- "back" button for submenu nav -->
+          <div class="header__overlay-menu-back" id="js-submenu-back">
+            <div
+              class="arrow arrow-left js-arrow arrow_mini"
+              data-arts-cursor="data-arts-cursor"
+              data-arts-cursor-hide-native="true"
+              data-arts-cursor-scale="0"
+              data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+            >
+              <svg
+                class="svg-circle"
+                viewBox="0 0 60 60"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <circle
+                  class="circle"
+                  cx="30"
+                  cy="30"
+                  r="29"
+                  fill="none"
+                ></circle>
+              </svg>
+              <div class="arrow__pointer arrow-left__pointer"></div>
+              <div class="arrow__triangle"></div>
+            </div>
+          </div>
+          <!-- - "back" button for submenu nav -->
+        </div>
+      </div>
+      <!-- - top bar -->
+      <!-- fullscreen overlay container -->
+      <div
+        class="header__wrapper-overlay-menu container-fluid container-fluid_paddings"
+      >
+        <!-- fullscreen menu -->
+        <div class="header__wrapper-menu">
+          <ul class="menu-overlay js-menu-overlay">
+            <li class="menu-item-has-children">
+              <a
+                class="h2"
+                href="home-page-ar.html"
+                data-pjax-link="overlayMenu"
+              >
+                <div
+                  class="menu-overlay__item-wrapper split-text js-split-text"
+                  data-split-text-type="lines"
+                >
+                الصفحة الرئيسية 
+                </div></a
+              >
+            </li>
+            <li class="menu-item-has-children">
+              <a
+                class="h2"
+                href="index - ar.html"
+                data-pjax-link="overlayMenu"
+              >
+                <div
+                  class="menu-overlay__item-wrapper split-text js-split-text"
+                  data-split-text-type="lines"
+                >
+                سير العمل
+                </div></a
+              >
+            </li>
+
+            <li class="menu-item-has-children">
+              <a
+                class="h2"
+                href="about-page - ar.html"
+                data-pjax-link="overlayMenu"
+              >
+                <div
+                  class="menu-overlay__item-wrapper split-text js-split-text"
+                  data-split-text-type="lines"
+                >
+                مننحن
+                </div></a
+              >
+            </li>
+
+            <li class="menu-item-has-children">
+              <a
+                class="h2"
+                href="service-page - ar.html"
+                data-pjax-link="overlayMenu"
+              >
+                <div
+                  class="menu-overlay__item-wrapper split-text js-split-text"
+                  data-split-text-type="lines"
+                >
+                خدمات
+                </div></a
+              >
+            </li>
+
+            <li class="menu-item-has-children">
+              <a class="h2" href="#" data-pjax-link="overlayMenu">
+                <div
+                  class="menu-overlay__item-wrapper split-text js-split-text"
+                  data-split-text-type="lines"
+                >
+                المنصة
+                </div></a
+              >
+              <ul class="sub-menu">
+                <li>
+                  <a
+                    class="h3"
+                    href="product-page - ar.html"
+                    data-pjax-link="overlayMenu"
+                  >
+                    <div
+                      class="menu-overlay__item-wrapper split-text js-split-text"
+                      data-split-text-type="lines"
+                    >
+                    المنتج
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="h3"
+                    href="technoogyl-page -ar.html"
+                    data-pjax-link="overlayMenu"
+                  >
+                    <div
+                      class="menu-overlay__item-wrapper split-text js-split-text"
+                      data-split-text-type="lines"
+                    >
+                    المتطورة تقنية
+                    </div></a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item-has-children">
+              <a class="h2" href="#" data-pjax-link="overlayMenu">
+                <div
+                  class="menu-overlay__item-wrapper split-text js-split-text"
+                  data-split-text-type="lines"
+                >
+                التواصل
+                </div></a
+              >
+              <ul class="sub-menu">
+                <li>
+                  <a
+                    class="h3"
+                    href="contact-page - ar.html"
+                    data-pjax-link="overlayMenu"
+                  >
+                    <div
+                      class="menu-overlay__item-wrapper split-text js-split-text"
+                      data-split-text-type="lines"
+                    >
+                    تواصل معنا
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="h3"
+                    href="franchaise-page - ar.html"
+                    data-pjax-link="overlayMenu"
+                  >
+                    <div
+                      class="menu-overlay__item-wrapper split-text js-split-text"
+                      data-split-text-type="lines"
+                    >
+                    كتيب الوكالة
+                    </div></a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- - fullscreen menu -->
+        <!-- fullscreen widgets -->
+        <div class="header__wrapper-overlay-widgets">
+          <div class="row">
+            <!-- widget TEXT -->
+            <div class="col-lg-4 header__widget">
+              <div
+                class="header__widget-title small-caps js-split-text split-text"
+                data-split-text-type="lines"
+              >
+              التواصل   
+              </div>
+              <div
+                class="header__widget-content js-split-text split-text"
+                data-split-text-type="lines"
+              >
+                <p><a href="#">info@ontheway.store</a></p>
+                <p>+966 55 519 5606</p>
+              </div>
+            </div>
+            <div class="col-lg-4 header__widget">
+              <div
+                class="header__widget-title small-caps js-split-text split-text"
+                data-split-text-type="lines"
+              >
+              تطبيق الهاتف المحمول 
+              </div>
+              <div
+                class="header__widget-content js-split-text split-text"
+                data-split-text-type="lines"
+              >
+                <p>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.cp.satech&pli=1"
+                    target="_blank"
+                    ><img
+                      src="img/general/small-playstore-white.png"
+                      alt=""
+                    />
+                    متجر اللعب</a
+                  ><br />
+                </p>
+              </div>
+              <div
+                class="header__widget-content js-split-text split-text"
+                data-split-text-type="lines"
+              >
+                <p>
+                  <a
+                    href="https://apps.apple.com/ca/app/on-the-way-%D9%81%D9%8A-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82/id6475754362"
+                    target="_blank"
+                    ><img
+                      src="img/general/small-apple-logo-white.png"
+                      alt=""
+                    />
+                    متجر التطبيقات</a
+                  ><br />
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 header__widget">
+              
+              <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines" style="font-size: 20px;">اللغات</div>
+              <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
+                <p><a href="index.html" onclick="reload()"style="font-size: 18px;" ><img src="img/general/english.png" alt="">  إنجليزي</a><br />
+                </p>
+              </div>
+              <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
+                <p><a
+                    href="index - ar.html"
+                    onclick="reload()"
+                    style="font-size: 18px;"
+                  ><img src="img/general/arabic.png" alt="">  عربي
+                </a><br />
+                </p>
+              </div>
+            </div>
+            <!-- - widget TEXT -->
+            <!-- widget TEXT -->
+
+            <!-- - widget TEXT -->
+            <!-- widget TEXT -->
+            <div class="col-lg-4 header__widget">
+              <div
+                class="header__widget-title small-caps js-split-text split-text"
+                data-split-text-type="lines"
+              >
+              .التواصل معنا
+              </div>
+              <div
+                class="header__widget-content js-split-text split-text"
+                data-split-text-type="lines"
+              >
+                <p><a href="contact-page - ar.html">ابقى على تواصل</a><br /></p>
+              </div>
+            </div>
+            <!-- - widget TEXT -->
+          </div>
+        </div>
+
+        <!-- - fullscreen widgets -->
+      </div>
+      <!-- - fullscreen overlay container -->
+    </header>
+      <!-- - PAGE HEADER -->
+      <!-- PAGE MAIN -->
+      <div class="js-smooth-scroll bg-light-1" id="page-wrapper" data-barba="container">
+        <main class="page-wrapper__content">
+          <section class="section section-masthead pt-large text-center" data-arts-os-animation="data-arts-os-animation" data-background-color="var(--color-light-1)">
+            <div class="section-masthead__inner container-fluid">
+              <header class="row section-masthead__header justify-content-center">
+                <div class="col">
+                  <div class="section-masthead__subheading small-caps mt-0 mb-1 mb-md-2 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>متجر في الطريق</span></div>
+                  <div class="w-100"></div>
+                  <div class="section-masthead__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                    <h1 class="mt-0 mb-0 h1">المتطورةAIoTتقنية</h1>
+                  </div>
+                  <div class="w-100"></div>
+                  <div class="section__headline mt-2 mx-auto"></div>
+                </div>
+              </header>
+            </div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col">
+                  <div class="section-image section-masthead__background section section_h-400    mt-3">
+                    <div class="section-image__wrapper js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                      <div class="js-transition-img__transformed-el" >
+                        <div class="lazy-bg" data-src="img/assets/sectionTechnology/Technology-Page-1920x1280.jpg"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- section MASTHEAD -->
+          <section class="section section-masthead pt-3 pb-medium text-center" data-arts-os-animation="data-arts-os-animation" data-background-color="var(--color-light-1)">
+            <div class="section-masthead__inner container-fluid">
+              <header class="row section-masthead__header justify-content-center">
+                <div class="col-lg-8">
+                  
+                  <div><P class="figure-testimonial__author small-caps mt-2">مبني على رؤية الكمبيوتر، والتعلم العميق،
+                    وتقنيات دمج أجهزة الإستشعار المتعددة، يمكن على الطريق تحديد معلومات المنتج وسلوكيات التسوق للعميل بدقة، وتوفير تجربة تسوق سهلة للعميل، ومساعدة المتاجر على
+                    تقليل تكلفة العمالة و يزيد الكفائة.
+                    </P></div>
+                  
+                  <div class="w-100"></div>
+                  <div class="section__headline mt-2 mx-auto"></div>
+                </div>
+              </header>
+            </div>
+          </section>
+          <!-- - section MASTHEAD -->
+          <!-- section SERVICES -->
+          <section class="section section-testimonials bg-white pt-5">
+            <div class="swiper-container slider slider-testimonials js-slider-testimonials" data-speed="2000">
+              <div class="slider-testimonials__arrows container-fluid">
+                <div class="slider__arrow slider__arrow_left js-slider__arrow-prev">
+                  <div class="arrow arrow-left js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                    <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                    </svg>
+                    <div class="arrow__pointer arrow-left__pointer"></div>
+                    <div class="arrow__triangle"></div>
+                  </div>
+                </div>
+                <div class="slider__arrow slider__arrow_right js-slider__arrow-next">
+                  <div class="arrow arrow-right js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                    <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                    </svg>
+                    <div class="arrow__pointer arrow-right__pointer"></div>
+                    <div class="arrow__triangle"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="container figure-testimonial text-center">
+                    <div class="row justify-content-center">
+                      <!-- content -->
+                      <div class="col-lg-8">
+                        <div class="figure-testimonial__sign mx-auto"><img src="img/general/technical-color.png" alt="alt"/></div>
+                        <div class="slider-testimonials__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+                          <blockquote class="figure-testimonial__text">سهل التركيب</blockquote>
+                          <div class="section__headline mt-1 mb-1 mx-auto"></div>
+                          <div class="figure-testimonial__author small-caps mt-2">مجموعة برامج ذكاء
+                            في الطريق
+                            توفر شركة
+                            
+                            اصطناعي قوية لقيادة متاجرها لأقل تكلفة. يتضمن الجناح خوارزميات متقدمة للتعرف على المنتجات وتتبع العميل وإدارة المخزون ومعالجة
+                            الدفع. ومن الجدير بالذكر أنه يقدم مل ًفا تعريفيًا درجة للمستهلكين، يعرض عاداتهم360
+                            وتفضيالتهم وقوتهم الشرائية، إلى جانب رؤى
+                            إضافية. من خلال التحليل المنهجي لبيانات
+                            المبيعات، يتيح في الطريق الفهم الفوري
+                            لإحتياجات العميل المتطورة، وتسهيل الإختيار الأمثل للمنتج، وتعزيز المبيعات والأرباح. تعمل
+                            هذه التكنولوجيا الشاملة على تمكين تجار التجزئة من رفع مستوى عملياتهم وتقديم
+                            تجربة تسوق لا مثيل لها.
+                            </div>
+                        </div>
+                      </div>
+                      <!-- - content -->
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="container figure-testimonial text-center">
+                    <div class="row justify-content-center">
+                      <!-- content -->
+                      <div class="col-lg-8">
+                        <div class="figure-testimonial__sign mx-auto"><img src="img/general/technical-black-white (1).png" alt="alt"/></div>
+                        <div class="slider-testimonials__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+                          <blockquote class="figure-testimonial__text">منصة برمجيات قوية</blockquote>
+                          <div class="section__headline mt-1 mb-1 mx-auto"></div>
+                          <div class="figure-testimonial__author small-caps mt-2">مجموعة برامج الذكاء
+                            في الطريقتقدم شركةالإصطناعي التي تعمل على تشغيل متاجرها التي لا تتطلب الدفع. يتضمن هذا الجناح خوارزميات متقدمة للتعرف على المنتجات
+                            وتتبع العميل وإدارة المخزون ومعالجة الدفع. تعمل تقنيتنا الشاملة على تمكين تجار التجزئة من تعزيز عملياتهم وتقديم تجربة تسوق لا
+                            مثيل لها.
+                            </div>
+                        </div>
+                      </div>
+                      <!-- - content -->
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <!-- slider FOOTER -->
+              <div class="container slider-testimonials__footer mt-xsmall">
+                <div class="row justify-content-center align-items-center slider-testimonials__row no-gutters">
+                  <!-- slider DOTS -->
+                  <div class="col-auto">
+                    <div class="slider__dots js-slider__dots">
+                      <div class="slider__dot slider__dot_active">
+                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                        </svg>
+                      </div>
+                      <div class="slider__dot">
+                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                        </svg>
+                      </div>
+                      <div class="slider__dot">
+                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                        </svg>
+                      </div>
+                      <div class="slider__dot">
+                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- - slider DOTS -->
+                </div>
+              </div>
+              <!-- - slider FOOTER -->
+              <!-- slider ARROWS -->
+             
+              <!-- - slider ARROWS -->
+            </div>
+          </section>
+          <!-- - section SERVICES -->
+         
+          
+          <div class="bg-white text-center section-scroll" data-arts-theme-text="dark" data-arts-scroll-theme-text="light" data-arts-default-theme="bg-white" data-arts-scroll-theme="bg-dark-1" data-arts-scroll-trigger-hook="0.0" data-arts-scroll-offset="-100">
+            <!-- section CONTENT #4 -->
+            <section class="section section-content clearfix pt-medium pb-small text-center" data-arts-os-animation="data-arts-os-animation">
+              <div class="section-content__inner">
+                <div class="w-100"></div>
+                <div class="section__headline mb-1 mb-md-2 mx-auto"></div>
+                <div class="w-100"></div>
+                <div class="section-content__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                  <h2>المواصفات</h2>
+                </div>
+              </div>
+            </section>
+            <!-- - section CONTENT #4 -->
+            <!-- section FEATURES -->
+            <section class="section section-features section-grid pb-medium" data-arts-os-animation="data-arts-os-animation" data-grid-columns="4" data-grid-columns-tablet="2" data-grid-columns-mobile="1">
+              <div class="container">
+                <div class="row row-gutters">
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/checkout.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">بدون تسجيل خروج
+                            <br>تسوق ٧/٢٤
+
+                          </div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/vision.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">رؤية عن طريق الكمبيوتر و ذكاء اصطناعيمتكامل.                           
+                          </div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/inventory.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">إدارة مخزون آلية</div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/selves.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">الرفوف الذكية والمنتجات
+
+                          </div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/customer-interaction.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">تطبيقات الجوال وتفاعل العميل
+
+                          </div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/contactless-payment.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">أنظمة دفع بدون تلامس
+                          </div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/alert.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">الأمان ومنع السرقة
+
+                          </div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/person.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">توصيات شخصية
+                          </div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/monitoring.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">عن بعدوالإدارةالمراقبة</div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/energy.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">كفاءة الطاقة والإستدامة.
+                          </div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/analytics.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">تحليلات البيانات و الرؤية</div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 col-gutters">
+                    <div class="section-grid__item">
+                      <div class="figure-icon">
+                        <!-- icon -->
+                        <div class="figure-icon__wrapper-icon" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                          <div class="figure"><img src="img/general/icons-fetures/ecosystem.png" alt=""></div>
+                        </div>
+                        <!-- - icon -->
+                        <!-- header -->
+                        <div class="figure-icon__header">
+                          <div class="figure-feature__heading paragraph strong mt-1 mb-0">المساهمة في النظام البيئي التكنولوجي
+
+                          </div>
+                        </div>
+                        <!-- - header -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section section-cta text-center section-content pt-medium pb-large bg-dark-1" data-arts-os-animation="data-arts-os-animation" data-arts-theme-text="light">
+              <div class="section__content">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                      <div class="section-cta__heading split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+                        <h2 class="h2 mt-0 mt-md-1 mb-1">تحميل تطبيق الهاتف المحمول
+                        </h2>
+                      </div>
+                      <div><P class="figure-testimonial__author small-caps mt-2">للهاتف المحمول
+                        في الطريق يعمل تطبيقعلى تحسين تفاعل العميل مع متاجره
+                        وخدماته، ويقدم ميزات مثل تتبع موقع المتجر،                        وتوصيات المنتجات الشخصية، وخيارات الدفع الرقمي. تم تصميم التطبيق لتعزيز مشاركة المستهلك، وتعزيز عادة التطبيق التي تساهم
+                        في نمو النظام البيئي للبيع بالتجزئة بأكمله.
+                        
+
+                      </P></div>
+                    </div> 
+                    <div class="d-flex flex-row bd-highlight mb-3">
+                      <div class="p-2 bd-highlight"> <div class="w-100 ">
+                        <div class="section-masthead__wrapper-button mt-xsmall"><a class="button button_bordered button_black bg-dark-1" style="color: rgb(255, 255, 255);" data-hover="Download Now" href="https://play.google.com/store/apps/details?id=com.cp.satech&hl=en_US" target="_blank"><span class="button__label-hover "><img src="img/general/main-appstore (2).png" alt="">متجر التطبيقات</span></a>
+                        </div>
+                      </div></div>
+                      <div class="p-2 bd-highlight"><div class="w-100 ">
+                        <div class="section-masthead__wrapper-button mt-xsmall"><a class="button button_bordered button_white bg-light-1" style="color: black;" data-hover="Download Now" href="" target="_blank"><span class="button__label-hover "><img src="img/general/main-playstore- (1).png" alt="">متجر اللعب</span></a>
+                        </div>
+                      </div></div>
+                     
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="section__bg">
+                <div class="section-image__wrapper" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                  <div>
+                    <div class="lazy-bg" data-src="img/assets/sectionTechnology/Mobile-Application-Background-1920x1080.jpg"></div>
+                  </div>
+                </div>
+                <!-- overlay-->
+                <div class="overlay overlay_top-dark section-masthead__overlay"></div>
+                <!-- - overlay -->
+              </div>
+            </section>
+           
+           
+            <section class="section section-list overflow bg-white pb-medium" data-arts-os-animation="data-arts-os-animation">
+              <section class="section section-content clearfix pt-medium pb-small text-center" data-arts-os-animation="data-arts-os-animation">
+                <div class="section-content__inner">
+                  <div class="w-100"></div>
+                  <div class="w-100"></div>
+                  <div class="section-content__heading split-text js-split-text"  data-split-text-type="lines,words" data-split-text-set="words">
+                    <h2 id="section-technology">التواصل معنا                    
+
+                    </h2>
+                  </div>
+                  <div class="section__headline mb-1 mb-md-2 mx-auto"></div>
+                </div>
+              </section>
+              <div class="container-fluid list-projects list-demos text-center js-list-hover" data-arts-hover-strength="0.35" data-arts-hover-scale-texture="1.2" data-arts-hover-scale-plane="0.33">
+                <div class="row align-items-center">
+                  <div class="col-md-6"><a class="list-projects__item list-demos__item pt-medium pb-medium js-change-text-hover js-list-hover__link" href="contact-page - ar.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" >
+                      <div class="row align-items-center justify-content-center">
+                        <!-- hidden AJAX transition image -->
+                        <div class="col-12 d-md-none">
+                          <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
+                            <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/sectionContacts/Contact-Us-840x525.jpg" src="#" alt=""/></div>
+                          </div>
+                        </div>
+                        <!-- - hidden AJAX transition image -->
+                        <!-- header -->
+                        <div class="col-md-10">
+                          <h3 class="h3 list-projects__heading js-split-text split-text" id="section-technology" data-split-text-type="lines,words" data-split-text-set="words">تواصل معنا</h3>
+                        </div>
+                        <!-- - header -->
+                      </div></a></div>
+                  <div class="list-demos__divider d-none d-md-block"></div>
+                  <div class="col-md-6"><a class="list-projects__item list-demos__item pt-medium pb-medium js-change-text-hover js-list-hover__link" href="franchaise-page - ar.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" >
+                      <div class="row align-items-center justify-content-center">
+                        <!-- hidden AJAX transition image -->
+                        <div class="col-12 d-md-none">
+                          <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
+                            <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/sectionfranchise/Franchise-Book-840x525.jpg" src="#" alt=""/></div>
+                          </div>
+                        </div>
+                        <!-- - hidden AJAX transition image -->
+                        <!-- header -->
+                        <div class="col-md-10">
+                          <h3 class="h3 list-projects__heading js-split-text split-text"id="section-technology" data-split-text-type="lines,words" data-split-text-set="words">كتيب الوكالة </h3>
+                        </div>
+                        <!-- - header -->
+                      </div></a></div>
+                </div>
+                <!-- fixed canvas -->
+                <canvas class="list-project__canvas js-list-hover__canvas" data-arts-scroll-fixed="data-arts-scroll-fixed"></canvas>
+                <!-- - fixed canvas -->
+              </div>
+            </section>
+          </div>
+          <footer class="footer container-fluid" id="page-footer" data-arts-theme-text="dark" data-arts-footer-logo="primary">
+            <div class="footer__area footer__area-border-top pt-sm-1 pb-sm-0 pt-1 pb-0">
+              <div class="row align-items-center">
+                <!-- widget LOGO -->
+                <div class="col-lg-3 footer__column text-center text-lg-left order-lg-1">
+                  <section class="widget widget_rhye_logo">
+                    <!-- content --><a class="logo" href="index - ar.html">
+                      <div class="logo__wrapper-img">
+                        <img  src="img/general/On-The-Way-Logo.png" alt="On The Way Stor" height="20"/>
+                      </div></a>
+                    <!-- - content -->
+                  </section>
+                </div>               
+                <div class="col-lg-3 footer__column text-center text-lg-right order-lg-3">
+                  <section class="widget widget_rhye_social">
+                    <!-- content -->
+                    <ul class="social">
+                      <li class="social__item"><a class="fa fa-facebook-f" href="https://www.facebook.com/people/On-The-Way/100092667487205/?mibextid=LQQJ4d" target="_blank"></a></li>
+                      <li class="social__item"><a class="fa fa-linkedin" href="https://www.linkedin.com/company/ontheway-sa/" target="_blank"></a></li>
+                      <li class="social__item"><a class="fa fa-instagram" href="https://www.instagram.com/ontheway.sa/" target="_blank"></a></li>
+                    </ul>                    
+                  </section>
+                </div>               
+                <div class="col-lg-6 footer__column text-center text-lg-center order-lg-2">
+                  <section class="widget widget_text">
+                    <!-- content -->
+                    <div class="textwidget">
+                      <p><small><a href="home-page-ar.html">On The Way Store - Revolutionizing Retail</a></small></p>
+                    </div> 
+                  </section>
+                </div>               
+              </div>
+            </div>           
+          </footer>
+          
+        </main>
+        
+      
+    <!-- - PhotoSwipe -->
+    <!-- List Hover Shaders -->
+    <script id="list-hover-vs" type="x-shader/x-vertex">
+      uniform vec2 uOffset;
+      
+      varying vec2 vUv;
+      
+      vec3 deformationCurve(vec3 position, vec2 uv, vec2 offset) {
+        float M_PI = 3.1415926535897932384626433832795;
+        position.x = position.x + (sin(uv.y * M_PI) * offset.x);
+        position.y = position.y + (sin(uv.x * M_PI) * offset.y);
+        return position;
+      }
+      
+      void main() {
+        vUv =  uv + (uOffset * 2.);
+        vec3 newPosition = position;
+        newPosition = deformationCurve(position,uv,uOffset);
+        gl_Position = projectionMatrix * modelViewMatrix * vec4( newPosition, 1.0 );
+      }
+    </script>
+    <script id="list-hover-fs" type="x-shader/x-fragment">
+      uniform sampler2D uTexture;
+      uniform float uAlpha;
+      uniform float uScale;
+      
+      varying vec2 vUv;
+      
+      vec2 scaleUV(vec2 uv,float scale) {
+        float center = 0.5;
+        return ((uv - center) * scale) + center;
+      }
+      
+      void main() {
+        vec3 color = texture2D(uTexture,scaleUV(vUv,uScale)).rgb;
+        gl_FragColor = vec4(color,uAlpha);
+      }
+      
+    </script>
+    <!-- - List Hover Shaders -->
+    <!-- Slider Textures Shaders -->
+    <script id="slider-textures-vs" type="x-shader/x-vertex">
+      varying vec2 vUv;
+      void main() {
+        vUv = uv;
+        gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+      }
+    </script>
+    <script id="slider-textures-horizontal-fs" type="x-shader/x-fragment">
+      varying vec2 vUv;
+      
+      uniform sampler2D texture;
+      uniform sampler2D texture2;
+      uniform sampler2D disp;
+      
+      uniform float dispFactor;
+      uniform float effectFactor;
+      
+      void main() {
+      
+        vec2 uv = vUv;
+      
+        vec4 disp = texture2D(disp, uv);
+      
+        vec2 distortedPosition = vec2(uv.x + dispFactor * (disp.r*effectFactor), uv.y);
+        vec2 distortedPosition2 = vec2(uv.x - (1.0 - dispFactor) * (disp.r*effectFactor), uv.y);
+      
+        vec4 _texture = texture2D(texture, distortedPosition);
+        vec4 _texture2 = texture2D(texture2, distortedPosition2);
+      
+        vec4 finalTexture = mix(_texture, _texture2, dispFactor);
+      
+        gl_FragColor = finalTexture;
+      
+      }
+    </script>
+    <script id="slider-textures-vertical-fs" type="x-shader/x-fragment">
+      varying vec2 vUv;
+      
+      uniform sampler2D texture;
+      uniform sampler2D texture2;
+      uniform sampler2D disp;
+      
+      uniform float dispFactor;
+      uniform float effectFactor;
+      
+      void main() {
+      
+        vec2 uv = vUv;
+      
+        vec4 disp = texture2D(disp, uv);
+      
+        vec2 distortedPosition = vec2(uv.x, uv.y - dispFactor * (disp.r*effectFactor));
+        vec2 distortedPosition2 = vec2(uv.x, uv.y + (1.0 - dispFactor) * (disp.r*effectFactor));
+      
+        vec4 _texture = texture2D(texture, distortedPosition);
+        vec4 _texture2 = texture2D(texture2, distortedPosition2);
+      
+        vec4 finalTexture = mix(_texture, _texture2, dispFactor);
+      
+        gl_FragColor = finalTexture;
+      
+      }
+      
+    </script>
+    <script>function reload() {
+      setTimeout(function() {
+          location.reload();
+      }, 1000); 
+  }</script>
+    <!-- - Slider Textures Shaders -->
+    <!-- VENDOR SCRIPTS -->
+    <script src="js/vendor.js"></script>
+    <!-- - VENDOR SCRIPTS -->
+    <!-- COMPONENTS -->
+    <script src="js/components.js"></script>
+    <!-- - COMPONENTS -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwR_TrF6h7-pMxkKv_q2t8BXX3w6QuFOc" async></script>
+  </body>
+</html>
